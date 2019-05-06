@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>111111111111111111</title>
+		<title>项目</title>
 	</head>
 	<body>
 		<div>hello</div>
@@ -11,4 +11,12 @@
 		<div>工作已经完成，通报陈子荷：旷工</div>
 		<div>矿工处罚，降至基层员工，罚款1...元</div>
 	</body>
+	<script>
+		var div = document.querySelectorAll('div');
+		for (let i = 0; i < div.length; i++) {
+			div[i].onclick=function(e){
+				alert(this.innerHTML);
+			}
+		}
+	</script>
 </html>
